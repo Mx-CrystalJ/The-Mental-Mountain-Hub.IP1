@@ -1,3 +1,12 @@
+
+#carouselExampleFade {
+  background-image:url(/assets/images/73bfb902-44a1-4f97-b790-0d6099074d69.jpg);
+  display: flex;
+  max-width: 50%;
+  /* justify-content: center; */
+}
+
+
 #social-networks {
   list-style-type: none;
 }
