@@ -37,10 +37,11 @@ p {
   display: flex;
   justify-content: center;
   padding-left: 10px;
+  height: 15px;
 }
 
 li {
-  padding: 20px;
+  padding: 10px;
 }
 
 
