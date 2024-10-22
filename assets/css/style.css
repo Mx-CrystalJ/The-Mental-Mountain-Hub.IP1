@@ -1,17 +1,47 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+
+body {
+
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Lexend Giga';
+}
+
+p {
+  font-family: 'Lexend Giga';
+}
+
+.footcol {
+  background-color: #a9ebe8;
+}
+
 #carouselExampleFade {
   background-image:url(/assets/images/73bfb902-44a1-4f97-b790-0d6099074d69.jpg);
   display: flex;
   max-width: 50%;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
+.centercarousel {
+  display: flex;
+  justify-content: center;
+}
 
 #social-networks {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
 }
 
-
+li {
+  padding: 20px;
+}
 
 
 
