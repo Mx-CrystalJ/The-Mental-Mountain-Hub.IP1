@@ -9,7 +9,11 @@ body {
 }
 
 
-h1, h2, h3, h4 {
+h1, h2 {
+  font-family: 'Poiret One';
+}
+
+h3, h4 {
   font-family: 'Lexend Giga';
 }
 
@@ -20,7 +24,6 @@ h1, h2, h3, h4 {
 
 .contentheader {
   text-align: center;
-  text-decoration: underline;
 }
 
 p {
@@ -29,7 +32,9 @@ p {
   font-weight: 800;
 }
 
-
+div {
+  justify-self: center;
+}
 
 .footcol {
   background-color: #a9ebe8;
@@ -38,7 +43,7 @@ p {
 #carouselExampleFade {
   background-image:url(/assets/images/73bfb902-44a1-4f97-b790-0d6099074d69.jpg);
   display: flex;
-  max-width: 50%;
+  width: 100%;
   justify-content: center;
 }
 
@@ -71,4 +76,22 @@ li {
   @include media-breakpoint-only(xl) {
     column-count: 5;
   }
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+  .centercarousel {
+    width: 100%;
+}
+  
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+  /* Header */
+  .centercarousel {
+      width: 75%;
+      justify-self: center;
+  }
+  
 }
