@@ -1,6 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poiret+One&display=swap');
 
 
 body {
@@ -12,9 +13,23 @@ h1, h2, h3, h4 {
   font-family: 'Lexend Giga';
 }
 
-p {
-  font-family: 'Lexend Giga';
+.smalltext {
+  font-size: medium;
+  text-align: center;
 }
+
+.contentheader {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Poiret One';
+  font-optical-sizing: auto;
+  font-weight: 800;
+}
+
+
 
 .footcol {
   background-color: #a9ebe8;
